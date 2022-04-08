@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Hotel_Booking</string>
+    <string name="welcome_text">Hotel Booking Application</string>
+</resources>

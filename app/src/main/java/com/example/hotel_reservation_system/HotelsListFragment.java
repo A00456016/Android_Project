@@ -55,7 +55,7 @@ public class HotelsListFragment extends Fragment implements ItemClickListener {
         checkOutDate = getArguments().getString("check out date");
         numberOfGuests = getArguments().getString("number of guests");
 
-        headingTextView.setText("Please select hotel of your choice for " + numberOfGuests + " guests staying from " + checkInDate +
+        headingTextView.setText("Please select hotel of your choice for " + numberOfGuests + " guest staying from " + checkInDate +
                 " to " + checkOutDate);
 
         getHotelsListsData();

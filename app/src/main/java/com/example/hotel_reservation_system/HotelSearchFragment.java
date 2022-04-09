@@ -6,9 +6,11 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.Spinner;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -27,7 +29,7 @@ public class HotelSearchFragment extends Fragment {
     ConstraintLayout mainLayout;
     TextView titleTextView;
     EditText guestsCountEditText, nameEditText;
-    Button searchButton, retrieveButton;
+    Button searchButton;
     DatePicker checkInDatePicker, checkOutDatePicker;
     String checkInDate, checkOutDate, numberOfGuests, guestName;
 
@@ -56,7 +58,6 @@ public class HotelSearchFragment extends Fragment {
 
         //For Shared Pref Demo
         nameEditText = view.findViewById(R.id.name_edit_text);
-        retrieveButton = view.findViewById(R.id.retrieve_button);
         searchButton = view.findViewById(R.id.search_button);
 
         checkInDatePicker = view.findViewById(R.id.check_in_date_picker_view);
@@ -88,21 +89,6 @@ public class HotelSearchFragment extends Fragment {
                 fragmentTransaction.addToBackStack(null);
                 fragmentTransaction.commit();
 
-            }
-        });
-
-        retrieveButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                sharedPreferences = getActivity().getSharedPreferences(myPreference, Context.MODE_PRIVATE);
-
-                if (sharedPreferences.contains(name)) {
-                    nameEditText.setText(sharedPreferences.getString(name, ""));
-                }
-                if (sharedPreferences.contains(guestsCount)) {
-                    guestsCountEditText.setText(sharedPreferences.getString(guestsCount, ""));
-
-                }
             }
         });
 

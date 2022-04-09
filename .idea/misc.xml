@@ -3,6 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/15199/AndroidStudioProjects/Final_Project/Hotel-Reservation-System/app/src/main/res/layout/activity_main.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/15199/AndroidStudioProjects/Final_Project/Hotel-Reservation-System/app/src/main/res/layout/confirmation_layout.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/15199/AndroidStudioProjects/Final_Project/Hotel-Reservation-System/app/src/main/res/layout/guest_list_layout.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/15199/AndroidStudioProjects/Final_Project/Hotel-Reservation-System/app/src/main/res/layout/hotel_guest_details_fragment.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/15199/AndroidStudioProjects/Final_Project/Hotel-Reservation-System/app/src/main/res/layout/hotel_list_fragment.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/15199/AndroidStudioProjects/Final_Project/Hotel-Reservation-System/app/src/main/res/layout/hotel_list_layout.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/15199/AndroidStudioProjects/Final_Project/Hotel-Reservation-System/app/src/main/res/layout/hotel_search_layout.xml" value="0.1" />
         <entry key="..\:/Users/15199/AndroidStudioProjects/Kannagi_App/Hotel-Reservation-System/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1015" />
         <entry key="..\:/Users/15199/AndroidStudioProjects/Kannagi_App/Hotel-Reservation-System/app/src/main/res/layout/activity_main.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/15199/AndroidStudioProjects/Kannagi_App/Hotel-Reservation-System/app/src/main/res/layout/confirmation_layout.xml" value="0.17552083333333332" />
